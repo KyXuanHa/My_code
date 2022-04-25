@@ -30,5 +30,5 @@ git push --force
 git push origin master,name_branch
 git push origin main
 
-git fetch
-git pull
+git fetch (nên dùng để dễ kiểm soát)
+git pull = git fetch + merge
