@@ -27,5 +27,8 @@ git remote add origin https://github.com/KyXuanHa/kafka-basic.git
 
 
 git push --force
-git push origin master
+git push origin master,name_branch
 git push origin main
+
+git fetch
+git pull
