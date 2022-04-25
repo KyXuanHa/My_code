@@ -1,0 +1,12 @@
+1. Tạo Producer Properties: "bootstrap.servers","key","value",   acks=??
+
+2. Tạo 1 Producer: "KafkaProducer<String,String> producer = new KafkaProducer<>(properties);"
+
+3. Tạo Message(Producer Record) : "ProducerRecord<String,String> producerRecord = new ProducerRecord<>(topic,key,value);"
+gồm (topic,key,value)
+
+4. Gửi Message tới Server và chờ phản hồi: "producer.send(producerRecord, new Callback()"
+
+5. Kết thúc với: 
+	  producer.flush();
+        producer.close(); 

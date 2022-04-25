@@ -1,0 +1,21 @@
+ip addr | grep "eth0"
+
+nano ./kafka_2.13-3.1.0/config/server.properties
+
+#listeners=PLAINTEXT://:9092
+
+zookeeper-server-start.sh ~/kafka_2.13-3.1.0/config/zookeeper.properties
+kafka-server-start.sh ~/kafka_2.13-3.1.0/config/server.properties
+
+
+
+//////////////////////////////
+
+
+
+#listeners=PLAINTEXT://:9092
+
+nano ./kafka_2.13-3.1.0/config/server.properties
+nano ./kafka_2.13-3.1.0/config/zookeeper.properties
+
+172.26.46.41

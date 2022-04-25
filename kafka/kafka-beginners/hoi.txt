@@ -1,0 +1,5 @@
+Hỏi AUTO_OFFSET_RESET_CONFIG, times =5000ms
+và consumer.poll(Duration.ofMillis(1000));
+
+gửi nhận về và xử lý nhưng đã ko kịp commit offset vì times= 5000ms
+Tại sao thử nghiệm trên máy 5s nó vẫn cập nhật kịp
