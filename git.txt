@@ -8,6 +8,8 @@ git add .   (git add "namefile")
 
 git checkout 
 git branch name
+git branch -r (see origin)
+
 git branch -m branch_1_rename
 git branch -m branch_2 branch_2_rename
 git branch -D branch2
